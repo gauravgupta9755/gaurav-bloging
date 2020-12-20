@@ -1,0 +1,109 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: #66999e;
+    
+}
+.background-div{
+    width: 100%;
+    height: 475px;
+    background-color: black;
+   
+}
+.nav-div{
+    width:100%;
+    height:170px;
+    background-color: blue;
+    position: fixed;
+    left:0px;
+    top: 0%;
+}
+
+.right-nav{
+	width: 0;
+	height: 0;
+	border-top: 0px solid transparent;
+    border-left: 1000px solid #555;
+	border-bottom: 170px solid transparent;
+}
+
+.left-nav{
+    width: 0;
+	height: 0;
+	border-top: 0px solid transparent;
+    border-right: 1000px solid #555;
+    border-bottom: 170px solid transparent;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+.creater-logo{
+    width: 80px;
+    height: 80px;
+    background-color: bisque;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: fixed;
+    top: 0%;
+    left: 48%;
+
+}
+.creater-name{
+    width: 174px;
+    height: 30px;
+    background-color: chartreuse;
+    position: fixed;
+    top: 18%;
+    left: 45%;
+}
+.search-div{
+    background-color: aqua;
+    width: 50%;
+    height: 10%;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    
+}
+#search-box{
+    width: 90%;
+    height: 90%;
+    font-size: 20px;
+}
+.nav-content-contenar{
+    width: 100%;
+    height:170px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: transparent;
+    display:flex;
+
+}
+.left-content-contenar{
+width: 50%;
+height: 170px;
+background-color: transparent;
+display: flex;
+}
+.right-content-contenar{
+    width: 50%;
+    height: 170px;
+    background-color: darkred;
+}
+.home-logo{
+    position: relative;
+    top: 20%;
+    left: 4%;
+}
+#logo-image{
+    width: 40px;
+    height:40px     ;
+}
+.home-name{
+    position: relative;
+    top: 18%;
+    left: 4%;
+}
